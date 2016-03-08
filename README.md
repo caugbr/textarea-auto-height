@@ -1,2 +1,2 @@
 # textarea-auto-height
-A jQuery plugin that makes a textarea able to resize itself to match the content height
+A jQuery plugin to make a textarea resize to match the content height
