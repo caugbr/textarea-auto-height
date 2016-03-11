@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sem título</title>
+<style type="text/css">
+textarea {
+	width: 300px;
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+	color: darkblue;
+	width: 40%;
+	height: 1em;
+	padding: 10px;
+	overflow: hidden;
+}
+textarea:placeholder-shown {
+	white-space: nowrap;
+}
+</style>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="textarea-auto-height.js"></script>
+<script>
+$(function() {
+	$('textarea').textareaAutoHeight(/*{maxHeight: 200}*/).trigger('focus');
+});
+</script>
+</head>
+
+<body>
+
+	<form>
+		<textarea placeholder="Caixa auto-ajustável"></textarea>
+	</form>
+
+</body>
+</html>
